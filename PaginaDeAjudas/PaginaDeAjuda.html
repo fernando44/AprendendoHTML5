@@ -13,14 +13,28 @@
         /*comentrios 
         em mais de 
         uma linha no css */
+        p{
+            text-align: center;/*define o alinhamento do texto como central*/
+        }
         h1 {/*definindo estilo para a tag h1*/
             color: blue;/*altera a cor da fonte*/
             font-size: xx-large;/*altera a fonte da tag h1*/
             font-style: italic;/*altera o estilo da fonte da tag h1*/
+            text-align: center;
+        }
+        h2{
+            color: rgba(153, 15, 2, 0.9);
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        hgroup{
+            text-align: center;
         }
 
         body{
-            background-color: aqua;/*altera o fundo do corpo da pagina*/
+            background-image: url(fundo.jpeg);/*altera o fundo do corpo da pagina adicionando uma imagem*/
         }
     </style><!--Usado para definir os estilos de titulos, imagens, cor, fundoDaTela, entre outros-->
 
@@ -30,10 +44,17 @@
     <h1>Titulo do tipo h1</h1>
     <h2>Titulo do tipo h2</h2>
     <h3>podemos usar varios tipos de h</h3>
-    <p>paragrafos em uma pagina</p>
+    <p>paragrafos em uma pag&nbsp;ina</p><!--&nbsp; adiciona um espaçamento-->
     <p>Tipos de cores:</br><!--</br> quebra de linha-->
+    <hgroup>        
+    <pre>
+    <code>
     color: nome da cor</br>
     color: #000000 (#00(corVermelha)00(corVerde)00(corAzul)
-    color: rgb(red, green, blue);</p>
+    color: rgb(red, green, blue);
+    </code>
+    </pre>
+    </hgroup>
+    </p>
 </body>
 </html>
