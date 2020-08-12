@@ -1,0 +1,23 @@
+@charset "UTF-8";
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+body {
+    background-color: white;
+}
+h4{
+    size: 12px;
+}
+
+figure.foto-legenda img{
+    width: auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+}
+
+nav{
+    
+}
