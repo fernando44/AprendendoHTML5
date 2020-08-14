@@ -18,6 +18,33 @@ figure.foto-legenda img{
     position: relative;
 }
 
-nav{
-    
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -35px;
+    left: 300px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 20px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+    color: #dddddd;
+    text-decoration: underline;
+    user-select: none;
+}
+
+nav#menu h1{
+    display: none;
 }
