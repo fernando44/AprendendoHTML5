@@ -12,7 +12,25 @@ h4{
 }
 
 header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
 
+header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    margin-top: 0px;
 }
 
 header#cabecalho img#icone {
@@ -20,6 +38,8 @@ header#cabecalho img#icone {
     left: 1010px;
     top: 50px;
 }
+
+
 
 figure.foto-legenda img{
     width: auto; 
@@ -42,15 +62,15 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -35px;
-    left: 320px;
+    top: -20px;
+    left: 370px;
 }
 
 nav#menu li{
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
-    margin: 20px;
+    margin: 5px;
     transition: background-color 1s;
 }
 
@@ -63,4 +83,68 @@ nav#menu li:hover{
 
 nav#menu h1{
     display: none;
+}
+
+section#corpo{
+    display: block;
+    width: 550px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+
+table#tabelaspec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td{
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce{
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+    background-color: #cecece;
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: #000000;
+    margin-top: 10px;
+    font-size: 8pt;
+}
+
+aside#lateral{
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+footer#rodape{
+    clear: both;
+    position: relative;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    text-align: center;
 }
