@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title Auxiliar para licitações></title>
+        <link rel="Stylesheet" type="text/css" href="estilo.css"/>
+
+    </head>
+        <div id="interface">
+            <h1>licitações</h1>
+            <h2>Cidades:</h2>
+            <!--Inicio dos nomes de cidades e links-->
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">São Simão</a></p>
+
+            <p><a href="http://tambau.sp.gov.br/licitacao/" target="_blank">Tambaú</a></p>
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">ErrLuis Antônio</a></p>
+
+            <p><a href="http://www.santacruzdaspalmeiras.sp.gov.br/" target="_blank">Santa Cruz das Palmeiras</a></p>
+
+            <p><a href="https://e-gov.betha.com.br/transparencia/01037-069/con_licitacoes.faces" target="_blank">Casa Branca</a></p>
+
+            <p><a href="http://www.rincao.sp.gov.br/licitacoes.html" target="_blank">rincao</a></p>
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">São Simão</a></p>
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">São Simão</a></p>
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">São Simão</a></p>
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">São Simão</a></p>
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">São Simão</a></p>
+
+            <p><a href="https://www.saosimao.sp.gov.br/licitacoes" target="_blank">São Simão</a></p>
+        </div>
+    <body>
+
+    </body>
+
+</html>

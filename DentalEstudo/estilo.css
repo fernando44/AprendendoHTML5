@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+div#interface{
+    width: 1000px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+div#interface h1{
+    position: relative;
+    left: 310pt;
+    top: 10px;
+}
+
+div#interface h2{
+    position: relative;
+    left: 200pt;
+    top: auto;
+}
+
+div#interface p{
+    position: relative;
+    left: 200pt;
+    top: auto;
+}
