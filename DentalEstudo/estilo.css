@@ -16,12 +16,63 @@ div#interface h1{
 
 div#interface h2{
     position: relative;
-    left: 200pt;
+    left: 320pt;
     top: auto;
 }
 
 div#interface p{
     position: relative;
-    left: 200pt;
+    left: 130pt;
     top: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #3b3b81;
+}
+
+aside#Lateral{
+    display: block;
+    width: 400px;
+    float: right;    
+}
+aside#Lateral p{
+    left: 140px;
+}
+
+section#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+section#corpo p{
+    padding: 2px;
+}
+
+footer#rodape{
+    clear: both;
+    position: relative;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    font-size: 10pt;
+    left: 370pt;
+}
+
+footer#rodape h1{
+    position: relative;
+    left: 280pt;
+    font-size: 10pt;
+}
+
+head{
+    border-bottom: 1px solid #606060;
+}
+
+div#Titulos{
+    border-bottom: 1px solid #606060;
 }
