@@ -1,0 +1,43 @@
+a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px 5px 10px;
+}
+
+a:hover{
+	color: #ffc300;
+	background-color: white;
+}
+
+.inicio{
+	color: white;
+	background-color: #ffc300;
+	text-align: center;
+	margin: -25px -10px;
+	padding-top: 10px;
+
+}
+
+.botoes{
+	padding: 0px  0px 20px 0px;
+
+}
+
+.conteudo{
+	margin: 3em 0px 0px 8em;
+	float: left;
+}
+
+#h1Conteudo{
+	color: #f5c428;
+	
+}
+
+.conteudoDireita{
+	color: darkred;
+	background-color: red;
+	float: left;
+	margin: 6em 2em 0em 2em;
+
+
+}
