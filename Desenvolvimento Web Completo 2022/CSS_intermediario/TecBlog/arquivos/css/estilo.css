@@ -24,20 +24,26 @@ a:hover{
 }
 
 .conteudo{
-	margin: 3em 0px 0px 8em;
+	margin: 3em 0px 0px 6em;
 	float: left;
 }
 
 #h1Conteudo{
 	color: #f5c428;
+	padding-bottom: -20px;
 	
 }
 
 .conteudoDireita{
-	color: darkred;
-	background-color: red;
 	float: left;
 	margin: 6em 2em 0em 2em;
 
 
+}
+
+#h1ConteudoDireita{
+	color: #6d6b71;
+	background-color: #dedade;
+	padding: 0.1em 0.8em 0.1em 0.8em;
+	font-size: 23px;
 }
