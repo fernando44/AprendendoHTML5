@@ -10,7 +10,7 @@ a:hover{
 }
 
 .inicio{
-	color: white;
+	color: rgb(41, 41, 41);
 	background-color: #ffc300;
 	text-align: center;
 	margin: -25px -10px;
@@ -20,30 +20,28 @@ a:hover{
 
 .botoes{
 	padding: 0px  0px 20px 0px;
-
+	font-size: 1.2em;
 }
 
-.conteudo{
-	margin: 3em 0px 0px 6em;
-	float: left;
-}
-
-#h1Conteudo{
-	color: #f5c428;
-	padding-bottom: -20px;
-	
+.EstiloTitulo{
+	color: white;
 }
 
 .conteudoDireita{
-	float: left;
-	margin: 6em 2em 0em 2em;
-
-
+	float: right;
+	width: 23%;
+	margin-top: 25px;
 }
 
-#h1ConteudoDireita{
-	color: #6d6b71;
-	background-color: #dedade;
-	padding: 0.1em 0.8em 0.1em 0.8em;
-	font-size: 23px;
+.conteudoEsquerda{
+	float: left;
+	width: 73%;
+	margin-top: 25px;
+}
+
+.btnCategoria{
+	display: block;
+	color: #ffc300;
+	margin-top: -5px;
+	font-size: 1.2em;
 }
