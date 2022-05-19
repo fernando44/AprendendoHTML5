@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Focus(cor){
+            document.getElementById("valor1").style.backgroundColor = cor ;
+        }
+
+        function PerderFoco(){
+            var valor = document.getElementById("valor1").value;
+            document.getElementById("valor1").value = '';
+
+            if((valor.length) < 3){
+                //background vermelho
+                document.getElementById("valor1").style.background = '#FF0000';
+            }
+            else{
+                //background verde
+                document.getElementById("valor1").style.background = '#41FF35'
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <input id="valor1" onfocus="Focus('#FFF82A')" onblur="PerderFoco()" type="text">
+</body>
+</html>
