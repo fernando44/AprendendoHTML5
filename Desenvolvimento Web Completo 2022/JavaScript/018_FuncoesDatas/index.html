@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var data = new Date();
+        document.write(data.getDate()+"/"+data.getMonth()+"/"+data.getFullYear());
+        document.write("<hr/>");
+
+        document.write(data.toString());
+        //adicionar ou remover dias
+        
+        data.setDate(data.getDate()+1);
+        document.write("<hr/>");
+        document.write(data.toString());
+        document.write("<hr/>");
+        
+        //adicionar ou remover meses
+        data.setMonth(data.getMonth()+1);
+        document.write(data.toString());
+        document.write("<hr/>");
+
+        //adicionar ou remover anos
+        data.setFullYear(data.getFullYear()+1);
+        document.write(data.toString());
+        document.write("<hr/>");
+
+        var data1 = new Date(2030, 2, 14);
+        document.write(data1.toString());
+
+        document.write("<hr/>");
+        document.write(data1.getTime());
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
