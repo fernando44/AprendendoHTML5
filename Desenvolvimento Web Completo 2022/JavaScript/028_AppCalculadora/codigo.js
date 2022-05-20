@@ -1,4 +1,8 @@
-var calculo='' ;
+var calculo='';
+
+function telaPrint(){
+    document.getElementById('tela').value = calculo;
+}
 
 function limparTela(){
     document.getElementById('tela').value = '';
@@ -6,31 +10,32 @@ function limparTela(){
 }
 
 function inserirValor(Valor){
+    /* entrada de 2 . . == ok
+    if(Valor=='.' && calculo.charAt(calculo.length - 1) != '' && calculo.charAt(calculo.length - 1) != '.' || Valor != '.')
+    {
+        calculo += Valor;
+        telaPrint();
+    }*/
     calculo += Valor;
-    document.getElementById('tela').value = calculo;
+    telaPrint();
+    console.log(calculo.includes('.'))
+    
 }
 
 function inserirOperacao(opcao){
-    switch(opcao){
-        case '+':{
-            console.log("soma");
-            break;
-        }
-        case '-':{
-            console.log("subtracao");
-            break;
-        }
-        case '*':{
-            console.log("multiplicacao");
-            break;
-        }
-        case '/':{
-            console.log("divisao");
-            break;
-        }
+    
+    if(calculo != ''){
+        calculo += opcao;
+        telaPrint();
     }
+    
 }
 
 function exibirResultado(){
-    console.log('exibir resultado');
+    if(calculo != '')
+    {
+        calculo = (eval(calculo));
+        telaPrint();
+    }
+    
 }
