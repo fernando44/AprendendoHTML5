@@ -23,7 +23,6 @@ function inserirOperacao(opcao){
     if(calculo != ''){
         valorFinal += calculo;
         valorFinal += opcao;
-        console.log(valorFinal);
         limparTela();
         telaPrint(calculo);
     }
