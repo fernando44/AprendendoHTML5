@@ -1,7 +1,8 @@
 var calculo='';
+var valorFinal = '' ;
 
-function telaPrint(){
-    document.getElementById('tela').value = calculo;
+function telaPrint(controle){
+    document.getElementById('tela').value = controle;
 }
 
 function limparTela(){
@@ -10,32 +11,29 @@ function limparTela(){
 }
 
 function inserirValor(Valor){
-    /* entrada de 2 . . == ok
-    if(Valor=='.' && calculo.charAt(calculo.length - 1) != '' && calculo.charAt(calculo.length - 1) != '.' || Valor != '.')
-    {
+    var Aux = calculo.includes('.');
+    if(Aux == true && Valor != '.' || Aux == false){
         calculo += Valor;
-        telaPrint();
-    }*/
-    calculo += Valor;
-    telaPrint();
-    console.log(calculo.includes('.'))
-    
+        telaPrint(calculo);
+    } 
 }
 
 function inserirOperacao(opcao){
     
     if(calculo != ''){
-        calculo += opcao;
-        telaPrint();
+        valorFinal += calculo;
+        valorFinal += opcao;
+        console.log(valorFinal);
+        limparTela();
+        telaPrint(calculo);
     }
-    
 }
 
 function exibirResultado(){
     if(calculo != '')
-    {
-        calculo = (eval(calculo));
-        telaPrint();
-    }
-    
+    {   
+        valorFinal += calculo;           
+        valorFinal = (eval(valorFinal));
+        telaPrint(valorFinal);
+    } 
 }
